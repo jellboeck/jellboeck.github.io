@@ -3,7 +3,7 @@
 
 <head>
  <meta charset="UTF-8">
- <title>My First Page</title>
+ <title>Julia Ellboeck Bio</title>
 </head>
 
 <body>
@@ -21,13 +21,24 @@
     
       </header>
 
+
+     
+
     <div class="contact">
+        <p>For more information, questions, or to connect please use the box below. </p> 
+        
       <form id="contact_form" >
-        <input name="name" type="text" class="form-control" placeholder="Your Name " required>
+        <label for="name">Name</label>
+        <br>
+        <input name="name" type="text" class="form-control" placeholder="John Smith " required>
+        <br>
+        <label for="email">Email</label>
         <br>
         <input name="email" type="text" class="form-control" placeholder="Your Email " required>
         <br>
-        <textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea>
+        <label for="messge">Message</label>
+        <br>
+        <textarea name="message" class="form-control" placeholder="Write Something..." rows="6" required></textarea>
         <br>
         <input type= "submit" class="form-control submit" value="SEND" >
         
