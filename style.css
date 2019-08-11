@@ -1,3 +1,4 @@
+
 body {
 
     margin:0;
@@ -86,6 +87,34 @@ a:active {
     margin-top: 35px;
 }
 
+
+#contact_form {
+    margin: 20px;
+    margin-bottom: 40px;
+   
+
+}
+
+form .submit {
+    background: teal;
+    border-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 75px;
+}
+
+form .submit:hover{
+    background-color: darkslategray;
+ 
+}
+
+.form-control {
+    width: 400px;
+  
+
+}
+
 footer {
 
     padding:20px;
@@ -96,3 +125,4 @@ footer {
     text-align: center;
 
 }
+
